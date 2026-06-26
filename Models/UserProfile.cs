@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CybersecurityChatbot.Models
+﻿namespace CybersecurityChatbot.Models
 {
-    internal class UserProfile
+    public class UserProfile
     {
+        public string Name { get; set; }
+        public string FavoriteTopic { get; set; }
+        public string LastSentiment { get; set; }
+        public int QuizScore { get; set; }
+        public int QuizAttempts { get; set; }
     }
 }
