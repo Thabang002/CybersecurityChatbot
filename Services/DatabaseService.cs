@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using CybersecurityChatbot.Models;
 using System.Data.SQLite;
 using System.IO;
-using CybersecurityChatbot.Models;
 
 namespace CybersecurityChatbot.Services
 {

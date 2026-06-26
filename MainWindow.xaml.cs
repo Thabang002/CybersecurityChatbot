@@ -101,16 +101,16 @@ namespace CybersecurityChatbot
             {
                 if (quizService.IsActive)
                 {
-                    var response = quizService.ProcessAnswer(input);
-                    AddBotMessage(response);
+                    var quizResponse = quizService.ProcessAnswer(input);
+                    AddBotMessage(quizResponse);
                     LoadQuizHistory();
                     UpdateStatusBar();
                     return;
                 }
                 else
                 {
-                    var response = quizService.StartQuiz();
-                    AddBotMessage(response);
+                    var quizResponse = quizService.StartQuiz();
+                    AddBotMessage(quizResponse);
                     LoadQuizHistory();
                     UpdateStatusBar();
                     return;
