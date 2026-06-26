@@ -1,4 +1,4 @@
-﻿# 🛡️ Cybersecurity Awareness Chatbot
+﻿# Cybersecurity Awareness Chatbot
 
 A comprehensive WPF-based cybersecurity awareness chatbot designed to educate South African
 citizens about online safety practices. This application serves as an interactive virtual assistant
@@ -89,7 +89,7 @@ The application covers topics like:
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Step 1: Clone or Download the Project
 ```bash
@@ -279,8 +279,7 @@ The name 'Services' does not exist in the current context
 ---
 
 ## Screenshots
-
-*(Screenshots would be inserted here)*
+![image alt](https://github.com/Thabang002/CybersecurityChatbot/blob/c1d10b980d205d512e959cf66eed7b78ace73130/Screenshot_2026-06-26_18-46-29.png)
 
 ### Main Chat Interface
 - Chat window with message bubbles
